@@ -1056,20 +1056,11 @@
         <term>bridge</term>
         <listitem>
           <para>
-            Configures a network bridge. The <literal>interface</literal> field sets the bridge's own
-            device name, while <literal>id</literal> is the connection name.
+            Configures a network bridge. The connection's own <literal>interface</literal> field
+            sets the bridge device name, and its <literal>id</literal> field sets the connection
+            name; the <literal>bridge</literal> object itself takes the following fields:
           </para>
           <itemizedlist>
-            <listitem>
-              <para>
-                <literal>interface</literal>: the bridge device's own name.
-              </para>
-            </listitem>
-            <listitem>
-              <para>
-                <literal>id</literal>: the connection name.
-              </para>
-            </listitem>
             <listitem>
               <para>
                 <literal>ports</literal>: interfaces or connection IDs to include in the bridge.
@@ -1108,20 +1099,11 @@
         <term>bond</term>
         <listitem>
           <para>
-            Configures a network bond. The <literal>interface</literal> field sets the bond's own
-            device name, while <literal>id</literal> is the connection name.
+            Configures a network bond. The connection's own <literal>interface</literal> field
+            sets the bond device name, and its <literal>id</literal> field sets the connection
+            name; the <literal>bond</literal> object itself takes the following fields:
           </para>
           <itemizedlist>
-            <listitem>
-              <para>
-                <literal>interface</literal>: the bond device's own name.
-              </para>
-            </listitem>
-            <listitem>
-              <para>
-                <literal>id</literal>: the connection name.
-              </para>
-            </listitem>
             <listitem>
               <para>
                 <literal>ports</literal>: devices to include in the bond.
