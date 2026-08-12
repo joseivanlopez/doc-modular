@@ -119,6 +119,12 @@
               time zone settings instead of the deprecated <literal>localization</literal>
               section.
             </para>
+            <para>
+              Editing a profile is now a section of its own instead of a subsection of creating a
+              profile. The two ways of starting an unattended installation are now presented as
+              alternatives, and several descriptions in the profile and storage references were
+              corrected.
+            </para>
           </revdescription>
         </revision>
         <revision><date>2026-07-31</date>
