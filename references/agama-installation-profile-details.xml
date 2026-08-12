@@ -241,11 +241,11 @@
             <package>whois</package> package. List the hashing methods supported by the target
             system with:
           </para>
-<screen>&prompt.sudo;<command>mkpasswd --method=help</command></screen>
+<screen>&prompt.user;<command>mkpasswd --method=help</command></screen>
           <para>
             Then hash the password with the chosen method, for example:
           </para>
-<screen>&prompt.sudo;<command>mkpasswd --method=yescrypt</command></screen>
+<screen>&prompt.user;<command>mkpasswd --method=yescrypt</command></screen>
           <para>
             Alternatively, use <command>openssl passwd -6</command> for a SHA-512 hash, or
             <command>openssl passwd -5</command> for SHA-256.
@@ -273,7 +273,7 @@
           <para>
             You can generate an SSH public key by running the following command:
           </para>
-<screen>&prompt.sudo;<command>ssh-keygen -t rsa -b 4096 -C "<replaceable>YOUR_EMAIL@EXAMPLE.COM</replaceable>"
+<screen>&prompt.user;<command>ssh-keygen -t rsa -b 4096 -C "<replaceable>YOUR_EMAIL@EXAMPLE.COM</replaceable>"
 </command></screen>
           <para>
             Based on your requirements, choose the key type and the key size. However, it is better

@@ -91,7 +91,7 @@
           <para>
             You can generate an SSH public key by running the following command:
           </para>
-<screen>&prompt.sudo;<command>ssh-keygen -t rsa -b 4096 -C "<replaceable>YOUR_EMAIL@EXAMPLE.COM</replaceable>"
+<screen>&prompt.user;<command>ssh-keygen -t rsa -b 4096 -C "<replaceable>YOUR_EMAIL@EXAMPLE.COM</replaceable>"
 </command></screen>
           <para>
             Based on your requirements, choose the key type and the key size. However, it is better
