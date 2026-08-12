@@ -658,8 +658,8 @@
       The component can be marked to be deleted unconditionally, or deleted if needed to free space
       for newly defined devices. It can also be shrunk to a necessary size or shrunk or extended to
       a specific size or range. It is even possible to express combined actions, like attempting to
-      shrink a component first and only proceeding to delete it if shrinking doesn't free up enough
-      space.
+      shrink a component first and only proceeding to delete it if shrinking does not free up
+      enough space.
     </para>
     <para>
       Deletion is achieved with the corresponding <literal>delete</literal> flag for unconditional
