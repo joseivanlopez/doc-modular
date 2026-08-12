@@ -311,8 +311,10 @@
         <listitem>
           <para>
             Boolean flag indicating whether the <literal>password</literal> field contains a hashed
-            value. If set to <literal>true</literal>, the password must be a pre-hashed SHA-512
-            crypt value. Otherwise, the plain text password will be hashed during installation.
+            value. If set to <literal>true</literal>, the password must already be hashed using a
+            method supported by the target system, as described for &rootuser; in
+            <xref linkend="root-authentication-agama-installation-profile"/>. Otherwise, the plain
+            text password will be hashed during installation.
           </para>
         </listitem>
       </varlistentry>
