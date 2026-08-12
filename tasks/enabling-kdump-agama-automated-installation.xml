@@ -61,7 +61,7 @@
     {
       "name": "enable-kdump",
       "chroot": true,
-      "content": "#!/usr/bin/bash\nzypper --non-interactive install kdump\nsystemctl enable kdump-commandline.service\nsystemctl enable kdump.service\nkdumptool commandline -u"
+      "content": "#!/bin/bash\nzypper --non-interactive install kdump\nsystemctl enable kdump-commandline.service\nsystemctl enable kdump.service\nkdumptool commandline -u"
     }
   ]
 }
